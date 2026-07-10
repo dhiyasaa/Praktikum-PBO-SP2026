@@ -2,20 +2,16 @@ package model;
 
 public class Costumer {
 
-    private int id;
+    private String id;
     private String nama;
     private String alamat;
-    private String hp;
+    private String noHp;
 
-    public Costumer() {
-
-    }
-
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -35,12 +31,12 @@ public class Costumer {
         this.alamat = alamat;
     }
 
-    public String getHp() {
-        return hp;
+    public String getNoHp() {
+        return noHp;
     }
 
-    public void setHp(String hp) {
-        this.hp = hp;
+    public void setNoHp(String noHp) {
+        this.noHp = noHp;
     }
 
 }
